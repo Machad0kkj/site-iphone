@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .caixa-azul {
@@ -15,11 +16,22 @@
 
 .titulo-secundario {
     font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 }
 
 .paragrafo {
     font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color: #0071e3;
+    color: white;
+    
 }
 
 .preco {
