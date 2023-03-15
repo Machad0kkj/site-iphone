@@ -1,4 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-img{
+.caixa-azul {
+
+    display: flex;
+}
+
+.titulo-iphone {
+    font-size: 30px;
+}
+
+.titulo-secundario {
+    font-size: 40px;
+
+}
+
+.paragrafo {
+    font-size: 15px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+}
+
+img {
     width: 450px;
 }
