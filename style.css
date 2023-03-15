@@ -1,13 +1,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .caixa-azul {
-
     display: flex;
+padding: 50px;
+
 }
 
 .titulo-iphone {
@@ -31,13 +31,56 @@
 .botao{
     background-color: #0071e3;
     color: white;
-    
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
 }
 
 .preco {
     font-size: 20px;
     color: #626262;
     font-weight: 300;
+}
+
+
+.troca-cor{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.azul{
+    background-color: #81a5c4;
+}
+
+.amarelo{
+    background-color: #f7da47;
+}
+
+.branco{
+    background-color: #c1c1c1;
+}
+
+.preto{
+    background-color: #272d33;
+}
+
+.vermelho{
+    background-color: #850012;
+}
+
+.roxo{
+    background-color: purple;
+}
+
+.escolha-cor{
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 img {
