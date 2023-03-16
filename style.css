@@ -49,6 +49,7 @@ padding: 50px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    box-shadow: 2px 1px ;
 }
 
 .azul{
