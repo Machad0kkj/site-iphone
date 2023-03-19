@@ -1,13 +1,44 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    box-sizing: border-box;
+* {
+    font-family: sans-serif;
+    margin: 0; /*  Margem Externa */
+    padding: 0; /*  Margem Interna */
+    box-sizing: border-box;  
+}
+/* MENU SUPERIOR */
+
+.caixa-roxa {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
 }
 
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+}
+
+li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #373737;
+}
+
+.logo {
+    height: 20px;
+}
+
+
+
+/* PARTE INFERIOR */
 .caixa-azul {
     display: flex;
-padding: 50px;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
 
 .titulo-iphone {
@@ -15,75 +46,85 @@ padding: 50px;
 }
 
 .titulo-secundario {
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-
+    font-size: 40px; /*  Tamanho do texto */
+    margin-top: 10px; /*  Margem parte de cima */
+    margin-bottom: 20px; /*  Margem parte de baixo */
 }
 
 .paragrafo {
     font-size: 15px;
     margin-bottom: 25px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-
-.botao{
-    background-color: #0071e3;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
 }
 
 .preco {
     font-size: 20px;
     color: #626262;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 
+.botao {
+    background-color: #0071e3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-.troca-cor{
+.troca-cor {
     width: 40px;
     height: 40px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
-    box-shadow: 2px 1px ;
+    box-shadow: 2px 2px;
 }
 
-.azul{
-    background-color: #81a5c4;
+.azul {
+    background-color: #81A5C4;
 }
 
-.amarelo{
-    background-color: #f7da47;
+.amarelo {
+    background-color: #F7DA47;
 }
 
-.branco{
-    background-color: #c1c1c1;
+.branco {
+    background-color: #C1C1C1;
 }
 
-.preto{
-    background-color: #272d33;
+.preto {
+    background-color: #272D33;
 }
 
-.vermelho{
-    background-color: #850012;
+.vermelho {
+    background-color: #B50012;
 }
 
-.roxo{
-    background-color: purple;
+.roxo {
+    background-color: #EDE7F1;
 }
 
-.escolha-cor{
+.escolha-cor {
     font-size: 16px;
     color: #3a3a3a;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
-img {
-    width: 450px;
+.iphone {
+    width: 350px;
+    z-index: 99;
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: #81A5C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 900px);
 }
